@@ -96,6 +96,13 @@ input, select {
   font-size: 62.5%;
 }
 
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 0 2rem;
+  color: rgb(217, 219, 221);
+}
+
 .navigation {
   background-color: rgb(249, 249, 249);
   padding: 3rem 2rem 3rem 0;
