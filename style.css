@@ -142,10 +142,43 @@ input, select {
   justify-content: space-between;
   margin: 5rem 2rem;
 }
+.contact-container form {
+  width: 30vw;
+  margin: 0 auto;
+  margin-right: 2rem;
+}
+.contact-container form .contact-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem auto;
+}
+.contact-container form .contact-items .label {
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+  color: rgb(106, 109, 113);
+}
+.contact-container form .submit-btn {
+  margin: 3rem auto 0;
+}
+.contact-container form .submit-btn input {
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  background: rgb(138, 140, 143);
+  color: rgb(255, 255, 255);
+}
+.contact-container .contact-options {
+  margin: 5rem auto 0;
+  width: 33vw;
+}
 .contact-container .contact-options p {
   font-size: 1.6rem;
-  width: 33vw;
-  margin: 0 5rem 3rem;
+  width: 100%;
+  margin-bottom: 5rem;
   text-align: center;
   line-height: 1.5;
 }
