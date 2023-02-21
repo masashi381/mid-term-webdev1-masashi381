@@ -147,8 +147,29 @@ vertical-align:middle;
   }
 }
 
-.test {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+// home
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 2rem;
+  .contact-options {
+    p {
+      font-size: 1.6rem;
+      width: 33vw;
+      margin: 0 5rem 3rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        a {
+          font-size: 2rem;
+          color: rgb(73, 74, 76);
+        }
+      }
+    }
+  }
 }
+// contact
