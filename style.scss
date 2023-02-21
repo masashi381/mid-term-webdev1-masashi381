@@ -14,7 +14,7 @@ margin:0;
 padding:0;
 border:0;
 outline:0;
-font-size:100%;
+// font-size:100%;
 vertical-align:baseline;
 background:transparent;
 }
@@ -45,9 +45,10 @@ content:none;
 a {
 margin:0;
 padding:0;
-font-size:100%;
+// font-size:100%;
 vertical-align:baseline;
 background:transparent;
+text-decoration: none;
 }
 
 /* change colours to suit your needs */
@@ -94,3 +95,24 @@ vertical-align:middle;
 }
 
 // end reset CSS
+
+* {
+    font-size: 62.5%;
+}
+// common class
+.navigation{
+  background-color: rgb(249, 249, 249);
+  padding: 3rem 2rem 3rem 0;
+  ul {
+    display: flex;
+    justify-content: end;
+    li {
+      a {
+        font-size: 1.6rem;
+        padding: 1rem;
+        color: rgb(142, 152, 164);
+      }
+    }
+  }
+}
+// header
