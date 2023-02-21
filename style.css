@@ -96,6 +96,13 @@ input, select {
   font-size: 62.5%;
 }
 
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 0 2rem;
+  color: rgb(217, 219, 221);
+}
+
 .navigation {
   background-color: rgb(249, 249, 249);
   padding: 3rem 2rem 3rem 0;
@@ -135,4 +142,58 @@ input, select {
 }
 .home-container .home-icon a:first-child {
   margin-right: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 2rem;
+}
+.contact-container form {
+  width: 30vw;
+  margin: 0 auto;
+  margin-right: 2rem;
+}
+.contact-container form .contact-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem auto;
+}
+.contact-container form .contact-items .label {
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+  color: rgb(106, 109, 113);
+}
+.contact-container form .submit-btn {
+  margin: 3rem auto 0;
+}
+.contact-container form .submit-btn input {
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  background: rgb(138, 140, 143);
+  color: rgb(255, 255, 255);
+}
+.contact-container .contact-options {
+  margin: 5rem auto 0;
+  width: 33vw;
+}
+.contact-container .contact-options p {
+  font-size: 1.6rem;
+  width: 100%;
+  margin-bottom: 5rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.contact-container .contact-options ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-container .contact-options ul li a {
+  font-size: 2rem;
+  color: rgb(73, 74, 76);
 }/*# sourceMappingURL=style.css.map */
