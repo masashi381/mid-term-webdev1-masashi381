@@ -135,4 +135,10 @@ input, select {
 }
 .home-container .home-icon a:first-child {
   margin-right: 2rem;
+}
+
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
