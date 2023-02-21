@@ -1,0 +1,138 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+* {
+  font-size: 62.5%;
+}
+
+.navigation {
+  background-color: rgb(249, 249, 249);
+  padding: 3rem 2rem 3rem 0;
+}
+.navigation ul {
+  display: flex;
+  justify-content: end;
+}
+.navigation ul li a {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: rgb(142, 152, 164);
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  height: 50vh;
+}
+.home-container .home-inner {
+  margin-top: 10rem;
+}
+.home-container #title {
+  font-size: 7rem;
+  font-family: "Shantell Sans", "cursive";
+  color: rgb(73, 74, 76);
+}
+.home-container .mini-title {
+  font-family: "Mynerve", "cursive";
+  font-size: 3rem;
+  color: rgb(106, 109, 113);
+}
+.home-container .home-icon a {
+  font-size: 2rem;
+  color: rgb(73, 74, 76);
+}
+.home-container .home-icon a:first-child {
+  margin-right: 2rem;
+}/*# sourceMappingURL=style.css.map */
