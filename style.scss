@@ -190,7 +190,36 @@ vertical-align:middle;
   justify-content: space-around;
   .soft-skills {
     width: 40vw;
-    
+    .acd-check {
+      display: none;
+      &:checked {
+        + .acd-label + .acd-content {
+          height: 7rem;
+          opacity: 1;
+          padding: 1rem;
+          visibility: visible;
+        }
+      }
+    }
+    .acd-label {
+      background-color: rgb(0, 0, 0 );
+      color: rgb(257, 257, 257);
+      display: block;
+      margin-bottom: 0.1rem;
+      padding: 1rem;
+      font-size: 1.8rem;
+    }
+    .acd-content {
+      border: 1px solid rgb(0, 0, 0);
+      height: 0;
+      opacity: 0;
+      padding: 0 1rem;
+      transition: .5s;
+      visibility: hidden;
+      P {
+        font-size: 1.4rem;
+      }
+    }
   }
   .hard-skills {
     width: 40vw;
