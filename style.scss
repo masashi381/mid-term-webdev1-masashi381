@@ -124,7 +124,9 @@ vertical-align:middle;
 }
 
 // header
-
+#home {
+  height: 70vh;
+}
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -135,11 +137,11 @@ vertical-align:middle;
   }
   #title {
     font-size: 7rem;
-    font-family: 'Shantell Sans', 'cursive';
+    font-family: 'Shantell Sans', cursive;
     color: rgb(73, 74, 76);
   }
   .mini-title {
-    font-family: 'Mynerve', 'cursive';
+    font-family: 'Mynerve', cursive;
     font-size: 3rem;
     color: rgb(106, 109, 113);
   }
@@ -155,6 +157,32 @@ vertical-align:middle;
 }
 
 // home
+#Projects {
+  margin-bottom: 5rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  row-gap: 2rem;
+  .projects-title {
+    grid-column: 1 / 4;
+    font-family: 'Mynerve', cursive;
+    font-size: 3rem;
+    color: rgb(106, 109, 113);
+  }
+  a {
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
+
+// projects
 
 .about-container {
   height: 70vh;
