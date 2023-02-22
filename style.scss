@@ -157,6 +157,7 @@ vertical-align:middle;
 }
 
 // home
+
 #Projects {
   margin-bottom: 5rem;
 }
@@ -183,6 +184,95 @@ vertical-align:middle;
 }
 
 // projects
+#skills {
+  h2 {
+    font-family: "Mynerve", cursive;
+    font-size: 3rem;
+    color: rgb(106, 109, 113);
+    text-align: center;
+  }
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  .soft-skills {
+    width: 40vw;
+    .acd-check {
+      display: none;
+      &:checked {
+        + .acd-label + .acd-content {
+          height: 7rem;
+          opacity: 1;
+          padding: 1rem;
+          visibility: visible;
+        }
+      }
+    }
+    .acd-label {
+      background-color: rgb(106, 109, 113);
+      color: rgb(257, 257, 257);
+      display: block;
+      margin-bottom: 0.1rem;
+      padding: 1rem;
+      font-size: 1.8rem;
+    }
+    .acd-content {
+      border: 1px solid rgb(106, 109, 113);
+      height: 0;
+      opacity: 0;
+      padding: 0 1rem;
+      transition: .5s;
+      visibility: hidden;
+      P {
+        font-size: 1.4rem;
+        color: rgb(106, 109, 113)
+      }
+    }
+  }
+  .hard-skills {
+    width: 40vw;
+    display: grid;
+    grid-template: repeat(1, 1fr)/repeat(6, 1fr);
+    grid-template-areas:
+        "item1 item1 item2 item2 item3 item3"
+        "item4 item4 item4 item5 item5 item5";
+    row-gap: 2rem;
+    .HS-grid-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .my-style {
+        font-size: 5rem;
+        color: rgb(106, 109, 113);
+      }
+      P {
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 0.5rem 0;
+        color: rgb(106, 109, 113);
+      }
+    }
+    .HS-grid-item1 {
+      grid-area: item1;
+    }
+    .HS-grid-item2 {
+      grid-area: item2;
+    }
+    .HS-grid-item3 {
+      grid-area: item3;
+    }
+    .HS-grid-item4 {
+      grid-area: item4;
+    }
+    .HS-grid-item5 {
+      grid-area: item5;
+    }
+  }
+}
+// skills
 
 .about-container {
   height: 70vh;
@@ -204,6 +294,7 @@ vertical-align:middle;
   }
 }
 // about
+
 .contact-container {
   display: flex;
   justify-content: space-between;

@@ -173,6 +173,89 @@ input, select {
      object-fit: cover;
 }
 
+#skills h2 {
+  font-family: "Mynerve", cursive;
+  font-size: 3rem;
+  color: rgb(106, 109, 113);
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+.skills-container .soft-skills {
+  width: 40vw;
+}
+.skills-container .soft-skills .acd-check {
+  display: none;
+}
+.skills-container .soft-skills .acd-check:checked + .acd-label + .acd-content {
+  height: 7rem;
+  opacity: 1;
+  padding: 1rem;
+  visibility: visible;
+}
+.skills-container .soft-skills .acd-label {
+  background-color: rgb(106, 109, 113);
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-bottom: 0.1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+.skills-container .soft-skills .acd-content {
+  border: 1px solid rgb(106, 109, 113);
+  height: 0;
+  opacity: 0;
+  padding: 0 1rem;
+  transition: 0.5s;
+  visibility: hidden;
+}
+.skills-container .soft-skills .acd-content P {
+  font-size: 1.4rem;
+  color: rgb(106, 109, 113);
+}
+.skills-container .hard-skills {
+  width: 40vw;
+  display: grid;
+  grid-template: repeat(1, 1fr)/repeat(6, 1fr);
+  grid-template-areas: "item1 item1 item2 item2 item3 item3" "item4 item4 item4 item5 item5 item5";
+  row-gap: 2rem;
+}
+.skills-container .hard-skills .HS-grid-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-container .hard-skills .HS-grid-items .my-style {
+  font-size: 5rem;
+  color: rgb(106, 109, 113);
+}
+.skills-container .hard-skills .HS-grid-items P {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  color: rgb(106, 109, 113);
+}
+.skills-container .hard-skills .HS-grid-item1 {
+  grid-area: item1;
+}
+.skills-container .hard-skills .HS-grid-item2 {
+  grid-area: item2;
+}
+.skills-container .hard-skills .HS-grid-item3 {
+  grid-area: item3;
+}
+.skills-container .hard-skills .HS-grid-item4 {
+  grid-area: item4;
+}
+.skills-container .hard-skills .HS-grid-item5 {
+  grid-area: item5;
+}
+
 .about-container {
   height: 70vh;
   display: flex;
