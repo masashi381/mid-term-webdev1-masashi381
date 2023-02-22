@@ -190,6 +190,7 @@ vertical-align:middle;
   justify-content: space-around;
   .soft-skills {
     width: 40vw;
+    
   }
   .hard-skills {
     width: 40vw;
@@ -205,11 +206,13 @@ vertical-align:middle;
       align-items: center;
       .my-style {
         font-size: 5rem;
+        color: rgb(106, 109, 113);
       }
       P {
         text-align: center;
         font-size: 1.4rem;
         padding: 0.5rem 0;
+        color: rgb(106, 109, 113);
       }
     }
     .HS-grid-item1 {
