@@ -115,6 +115,7 @@ vertical-align:middle;
 }
 
 // common class
+
 .navigation{
   background-color: rgb(249, 249, 249);
   padding: 3rem 2rem 3rem 0;
@@ -130,12 +131,13 @@ vertical-align:middle;
     }
   }
 }
-
+// navigation
 // header
 
 #home {
   height: 70vh;
 }
+
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -170,6 +172,7 @@ vertical-align:middle;
 #Projects {
   margin-bottom: 6rem;
 }
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -234,6 +237,7 @@ vertical-align:middle;
       }
     }
   }
+  // soft-skills
   .hard-skills {
     width: 40vw;
     display: grid;
@@ -273,6 +277,7 @@ vertical-align:middle;
       grid-area: item5;
     }
   }
+  // hard-skills
 }
 // skills
 
@@ -295,7 +300,9 @@ vertical-align:middle;
     font-size: 1.6rem;
   }
 }
+
 // about
+
 .work-container {
   width: 80vw;
   height: 80vh;
@@ -370,6 +377,7 @@ vertical-align:middle;
       }
     }
   }
+  // form
   .contact-options {
     margin: 5rem auto 0;
     width: 33vw;
@@ -387,10 +395,10 @@ vertical-align:middle;
         a {
           font-size: 2rem;
           color: rgb(73, 74, 76);
-
         }
       }
     }
   }
+  // contact-options
 }
 // contact
