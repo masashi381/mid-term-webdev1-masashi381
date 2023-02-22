@@ -117,6 +117,10 @@ input, select {
   color: rgb(142, 152, 164);
 }
 
+#home {
+  height: 70vh;
+}
+
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -128,11 +132,11 @@ input, select {
 }
 .home-container #title {
   font-size: 7rem;
-  font-family: "Shantell Sans", "cursive";
+  font-family: "Shantell Sans", cursive;
   color: rgb(73, 74, 76);
 }
 .home-container .mini-title {
-  font-family: "Mynerve", "cursive";
+  font-family: "Mynerve", cursive;
   font-size: 3rem;
   color: rgb(106, 109, 113);
 }
@@ -142,6 +146,31 @@ input, select {
 }
 .home-container .home-icon a:first-child {
   margin-right: 2rem;
+}
+
+#Projects {
+  margin-bottom: 5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+.projects-grid .projects-title {
+  grid-column: 1/4;
+  font-family: "Mynerve", cursive;
+  font-size: 3rem;
+  color: rgb(106, 109, 113);
+}
+.projects-grid a img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about-container {
