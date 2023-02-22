@@ -155,6 +155,27 @@ vertical-align:middle;
 }
 
 // home
+
+.about-container {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+
+  .profile {
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 5rem;
+  }
+  .about-detail {
+    width: 40vw;
+    margin: 0 auto;
+    font-size: 1.6rem;
+  }
+}
+// about
 .contact-container {
   display: flex;
   justify-content: space-between;

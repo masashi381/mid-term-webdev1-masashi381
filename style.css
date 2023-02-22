@@ -144,6 +144,26 @@ input, select {
   margin-right: 2rem;
 }
 
+.about-container {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+}
+.about-container .profile {
+  width: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-left: 5rem;
+}
+.about-container .about-detail {
+  width: 40vw;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
 .contact-container {
   display: flex;
   justify-content: space-between;
