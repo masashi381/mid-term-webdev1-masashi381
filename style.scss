@@ -100,12 +100,20 @@ vertical-align:middle;
     font-size: 62.5%;
 }
 
+.sub-title {
+  font-family: "Mynerve", cursive;
+  font-size: 3rem;
+  color: rgb(106, 109, 113);
+  text-align: center;
+}
+
 .copyright {
   text-align: center;
   font-size: 1.4rem;
   padding: 1rem 0 2rem;
   color: rgb(217, 219, 221);
 }
+
 // common class
 .navigation{
   background-color: rgb(249, 249, 249);
@@ -124,6 +132,7 @@ vertical-align:middle;
 }
 
 // header
+
 #home {
   height: 70vh;
 }
@@ -185,14 +194,6 @@ vertical-align:middle;
 
 // projects
 
-#skills {
-  h2 {
-    font-family: "Mynerve", cursive;
-    font-size: 3rem;
-    color: rgb(106, 109, 113);
-    text-align: center;
-  }
-}
 
 .skills-container {
   display: flex;
@@ -295,7 +296,47 @@ vertical-align:middle;
   }
 }
 // about
-
+.work-container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  .sub-title {
+    margin: 3rem 0;
+  }
+  .acd-check {
+    display: none;
+    &:checked {
+      + .acd-label + .acd-content {
+        height: 7rem;
+        opacity: 1;
+        padding: 1rem;
+        visibility: visible;
+      }
+    }
+  }
+  .acd-label {
+    background-color: rgb(106, 109, 113);
+    color: rgb(257, 257, 257);
+    display: block;
+    margin-bottom: 0.1rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
+  .acd-content {
+    border: 1px solid rgb(106, 109, 113);
+    height: 0;
+    opacity: 0;
+    padding: 0 1rem;
+    transition: .5s;
+    visibility: hidden;
+    P {
+      font-size: 1.4rem;
+      color: rgb(106, 109, 113)
+    }
+  }
+}
+  
+// work
 .contact-container {
   display: flex;
   justify-content: space-between;
