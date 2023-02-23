@@ -193,7 +193,7 @@ input, select {
   display: none;
 }
 .skills-container .soft-skills .acd-check:checked + .acd-label + .acd-content {
-  height: 7rem;
+  height: 6rem;
   opacity: 1;
   padding: 1rem;
   visibility: visible;
@@ -217,6 +217,7 @@ input, select {
 .skills-container .soft-skills .acd-content P {
   font-size: 1.4rem;
   color: rgb(106, 109, 113);
+  line-height: 1.2;
 }
 .skills-container .hard-skills {
   width: 40vw;

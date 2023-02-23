@@ -209,7 +209,7 @@ vertical-align:middle;
       display: none;
       &:checked {
         + .acd-label + .acd-content {
-          height: 7rem;
+          height: 6rem;
           opacity: 1;
           padding: 1rem;
           visibility: visible;
@@ -233,7 +233,8 @@ vertical-align:middle;
       visibility: hidden;
       P {
         font-size: 1.4rem;
-        color: rgb(106, 109, 113)
+        color: rgb(106, 109, 113);
+        line-height: 1.2;
       }
     }
   }
