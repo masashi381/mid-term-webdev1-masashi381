@@ -289,7 +289,7 @@ input, select {
   display: none;
 }
 .work-container .acd-check:checked + .acd-label + .acd-content {
-  height: 7rem;
+  height: 17rem;
   opacity: 1;
   padding: 1rem;
   visibility: visible;
@@ -313,6 +313,8 @@ input, select {
 .work-container .acd-content P {
   font-size: 1.4rem;
   color: rgb(106, 109, 113);
+  line-height: 1.2;
+  padding-left: 2rem;
 }
 
 .contact-container {
